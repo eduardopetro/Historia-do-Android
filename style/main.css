@@ -1,0 +1,84 @@
+.container-main {
+    background: white;
+    width: 1000px;
+    margin: 0.9em;
+    margin-left: 16em;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.titulo-main {
+    font-size: 35px;
+    text-indent: 20px;
+    padding-top: 0.5em;
+    color: var(--cor4);
+    font-family: var(--fonte-android)
+}
+
+.titulo-destaque {
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    padding: 0;
+    margin-left: 0.5em;
+
+}
+
+.paragrafo-main {
+    font-size: 24px;
+    text-indent: 20px;
+    padding: 0.7em;
+    line-height: 1.3em;
+
+}
+
+strong {
+    color: var(--cor4);
+}
+
+.link-site {
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+
+.img-droid {
+    padding-left: 90px;
+
+}
+
+.img-Irina {
+    padding-left: 3em;
+    width: 900px;
+
+}
+
+.img-bugdroid {
+    padding-left: 350px;
+
+
+}
+
+.video {
+    border: 20px solid var(--cor5);
+    width: 960px;
+}
+
+
+@media screen and (max-width:420px) {
+
+    .container-main {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+
+    .container-main{
+        margin-left: 0px;
+    }
+
+
+}
+
+    
+
+    
